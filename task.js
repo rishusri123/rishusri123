@@ -83,5 +83,5 @@ console.log(`hello ${tuv}`);
 // fahrenheit to Celsius 
 
 let temp = (fahrenheit)=>(5/9)*(fahrenheit-32);
- console.log(temp(100));
+ console.log(temp(200));
 
