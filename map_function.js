@@ -4,7 +4,14 @@
 //   console.log(b);
 
 
-let skvkkmmk
+const abc = (base, exponent) => {
+  let result = 1;
+  for (let i = 0; i < exponent; i++) {
+    result *= base;
+  }
+  return result;
+};
+console.log(abc(2,5));
 
 
 
